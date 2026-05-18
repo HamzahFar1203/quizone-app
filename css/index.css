@@ -75,6 +75,11 @@ form input[type="button"] {
     border-radius: 20px;
 }
 
+form input[type="button"]:hover {
+    cursor: pointer;
+    background-color: rgb(214, 214, 214);
+}
+
 /* Styling for all text input fields */
 form input[type="text"] {
     outline: none;
