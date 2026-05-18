@@ -4,15 +4,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quizone</title>
+
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <div class="wrapper">
-            <h1>Quizone</h1>
+        <div id="wrapper">
+
+            <h1 class="font-hammersmith-one">Quizone</h1>
+
             <form>
-                <label>question</label>
-                <input type="text" name="question">
+
+                <label class="font-gurajada">question</label>
+                <section>
+                    <input type="text" name="question" maxlength="150">
+                    <input type="button" name="add-question" value="+">
+                </section>
+
+                <label for="option-one-radio" class="font-gurajada">option one</label>
+                <section>
+                    <input type="text" name="option-one" maxlength="60">
+                    <input type="radio" id="option-one-radio" name="selected-answer">
+                </section>
+
+                <label for="option-two-radio" class="font-gurajada">option two</label>
+                <section>
+                    <input type="text" name="option-two" maxlength="60">
+                    <input type="radio" id="option-two-radio" name="selected-answer">
+                </section>
+
+                <label for="option-three-radio" class="font-gurajada">option three</label>
+                <section>
+                    <input type="text" name="option-three" maxlength="60">
+                    <input type="radio" id="option-three-radio" name="selected-answer">
+                </section>
 
             </form>
+
         </div>
+
+        <script src="js/functionality.js"></script>
     </body>
 </html>
