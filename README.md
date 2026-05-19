@@ -4,9 +4,9 @@ This is a self-quizzing app made to be used for quick study sessions, not extend
 <br>
 The planned features for this project include:
 <br>
-<strong>Commit #1.</strong> Home page HTML and CSS
+<s><strong>Commit #1.</strong> Home page HTML and CSS</s>
 <br>
-<strong>Commit #2.</strong> Quiz page HTML and CSS
+<s><strong>Commit #2.</strong> Quiz page HTML and CSS</s>
 <br>
 <strong>Commit #3.</strong> Results page HTML and CSS
 <br>
@@ -24,7 +24,19 @@ With this commit, I wrote out the entire HTML file and the CSS necessary to crea
 <br>
 <br>
 <img width="1063" height="581" alt="quizone-home-figma-screenshot" src="https://github.com/user-attachments/assets/9fc2ffed-409a-418e-869c-6555000735fe" />
-<img width="980" height="557" alt="quizone-home-screenshot" src="https://github.com/user-attachments/assets/0b16b585-eb98-485b-8cb7-f6b912085602" />
+<img width="1017" height="563" alt="quizone-home-page-screenshot" src="https://github.com/user-attachments/assets/17aad58b-0f5b-40d4-baa5-9944912e3e08" />
+<br>
+<br>
+The "Start Quiz" button was added in commit #2. Unfortunately, I forgot to include it in the Figma design. I didn't pay it much attention during the design phase, so I ended up forgetting it. Thankfully, I realized my mistake before starting to work on the contents of commit #2.
+<hr>
+<h2>Commit #2</h2>
+This commit adds the quiz.html page. This is the page that the user is redirected to after clicking "start quiz" on the home page. The questions and answers collected by the form on the home page will be carried over to quiz.html in a JSON stored in the session storage. The user is then administered the quiz. Once all the quiz questions have been answered, the user will be redirected to the results.html page with the quiz results. 
+<br>
+<br>
+<img width="1079" height="587" alt="image" src="https://github.com/user-attachments/assets/a2dad058-8afe-4791-94fc-5336a9d2172f" />
+<img width="1019" height="567" alt="image" src="https://github.com/user-attachments/assets/b60a0555-7df4-42ce-b570-79d317f5e310" />
+
+
 
 
 
