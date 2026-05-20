@@ -8,7 +8,7 @@ The planned features for this project include:
 <br>
 <s><strong>Commit #2.</strong> Quiz page HTML and CSS</s>
 <br>
-<strong>Commit #3.</strong> Results page HTML and CSS
+<s><strong>Commit #3.</strong> Results page HTML and CSS</s>
 <br>
 <strong>Commit #4.</strong> Core quiz functionality
 <br>
@@ -35,6 +35,16 @@ This commit adds the quiz.html page. This is the page that the user is redirecte
 <br>
 <img width="1079" height="587" alt="image" src="https://github.com/user-attachments/assets/a2dad058-8afe-4791-94fc-5336a9d2172f" />
 <img width="1019" height="567" alt="image" src="https://github.com/user-attachments/assets/b60a0555-7df4-42ce-b570-79d317f5e310" />
+<hr>
+<h2>Commit #3</h2>
+In commit #3, I've finally added the third and final page for this web app. The results.html page is the page on which the app will show the results of the quiz the user takes on the quiz.html page. When the user finishes their quiz, the score will be saved in session storage. Then, when this page loads, it will take the score from session storage and display it as a sentence in the paragraph tag.
+<br>
+<br>
+<img width="1072" height="583" alt="quizone-resultspage-figma" src="https://github.com/user-attachments/assets/50d86a6b-8b68-4bd0-918d-03ef83fc8aa7" />
+<img width="1012" height="569" alt="quizone-resultspage-html" src="https://github.com/user-attachments/assets/20bfe5c8-7e87-488d-82f8-a1f61f7d8d90" />
+<br>
+<br>
+Design choices are subject to change in a later commit, but for now, the buttons will be filled, even though the Figma draft shows them hollow.
 
 
 
