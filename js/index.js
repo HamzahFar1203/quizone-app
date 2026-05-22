@@ -8,24 +8,22 @@ const option_one_radio = document.getElementById("option-one-radio");
 const option_two_radio = document.getElementById("option-two-radio");
 const option_three_radio = document.getElementById("option-three-radio");
 const user_advice = document.getElementById("user-advice");
+const start_quiz_button = document.getElementById("start-button");
 
 // Document Variables
 var list_of_questions = [];
 
-// DELETE LATER: Console logs
-console.log(question_input);
-console.log(option_one);
-console.log(option_two);
-console.log(option_three);
-
 // When "+" button is pressed on the home page, the following will run:
 add_button.addEventListener("click", () => {
-    if (!question_input.value || !option_one.value || !option_two.value || !option_three.value) {
 
+    if (!question_input.value || !option_one.value || !option_two.value || !option_three.value) {
+        
+        // Executes if either of the input fields are empty
         user_advice.textContent = "Fill all the fields!"
 
     } else if (option_one_radio.checked || option_two_radio.checked || option_three_radio.checked) {
 
+        // Executes if all inputs fields are filled and one of the radio buttons is checked
         let question = {
             question: question_input.value,
             question_option_one: {
@@ -48,6 +46,8 @@ add_button.addEventListener("click", () => {
 
         user_advice.textContent = "Great! Any more questions?";
         
+        // Stores all entered quiz questions into session storage for later use
+        sessionStorage.setItem('quiz_questions', JSON.stringify(list_of_questions));
 
         // Clears input fields
         question_input.value = "";
@@ -64,4 +64,13 @@ add_button.addEventListener("click", () => {
 
     }
 
+});
+
+// What to do when the "start quiz" button is pressed on the home page.
+start_quiz_button.addEventListener("click", () => {
+    if (list_of_questions.length > 0) {
+        window.location = "../quiz.html";
+    } else {
+        user_advice.textContent = "You don't have any questions!";
+    }
 });
