@@ -11,6 +11,11 @@ The planned features for this project include:
 <s><strong>Commit #3.</strong> Results page HTML and CSS</s>
 <br>
 <strong>Commit #4.</strong> Core quiz functionality
+    <ol>
+      <s><li>Part one</li></s>
+      <li>Part two</li>
+      <li>Part three</li>
+    </ol>
 <br>
 <br>
 <strong>Figma</strong>
@@ -45,6 +50,13 @@ In commit #3, I've finally added the third and final page for this web app. The 
 <br>
 <br>
 Design choices are subject to change in a later commit, but for now, the buttons will be filled, even though the Figma draft shows them hollow.
+<hr>
+<h2>Commit #4 - Part One</h2>
+Due to the extensive nature of the functionality of this project, I've decided to split it into parts. With part one, I've added the JavaScript necessary to collect user input. I've also implemented defensive programming techniques to make sure the user inputs valid information and doesn't leave any fields empty/unchecked. I've also given the home page a slight update, now showing user advice below the logo and showing the number of questions collected next to the "Start Quiz" button.
+<br>
+<br>
+<img width="1019" height="566" alt="image" src="https://github.com/user-attachments/assets/0080b61e-348b-45fe-bd94-f45430e3e27e" />
+
 
 
 
