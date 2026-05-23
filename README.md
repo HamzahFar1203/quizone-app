@@ -13,7 +13,7 @@ The planned features for this project include:
 <strong>Commit #4.</strong> Core quiz functionality
     <ol>
       <s><li>Part one</li></s>
-      <li>Part two</li>
+      <s><li>Part two</li></s>
       <li>Part three</li>
     </ol>
 <br>
