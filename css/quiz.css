@@ -30,6 +30,8 @@ h1 {
 }
 
 table {
+    min-width: 40vw;
+
     border-radius: 30px;
     background-color: #121924;
 }
