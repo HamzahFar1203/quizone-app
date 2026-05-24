@@ -10,12 +10,13 @@ The planned features for this project include:
 <br>
 <s><strong>Commit #3.</strong> Results page HTML and CSS</s>
 <br>
-<strong>Commit #4.</strong> Core quiz functionality
-    <ol>
-      <s><li>Part one</li></s>
-      <s><li>Part two</li></s>
-      <li>Part three</li>
-    </ol>
+<s><strong>Commit #4.</strong> Core quiz functionality</s>
+<ol>
+    <s><li>Part one</li></s>
+    <s><li>Part two</li></s>
+    <s><li>Part three</li></s>
+</ol>
+<strong><i>Development Completed</i></strong>
 <br>
 <br>
 <strong>Figma</strong>
@@ -59,6 +60,18 @@ Due to the extensive nature of the functionality of this project, I've decided t
 <hr>
 <h2>Commit #4 - Part Two</h2>
 I've added full functionality for the quiz page. On load, the page begins the quiz by rendering the first question and its options. The quiz picks a question at random from the array of questions and displays the question along with its options. When the user selects an option, the app checks the status of that option in the question object. If the status of the option is set to "true", then the user earns a point, and the app moves to the next question. If the option's status is set to "false", then the user doesn't earn a point, and the app moves to the next question. This repeats until the last question. Once the user answers the final question, the app saves the score in session storage and redirects the user to the results page.
+<br>
+<br>
+<hr>
+<h2>Commit #4 - Part Three</h2>
+With this commit, I've added the final touches and completed the core functionalities for Quizone. I adjusted the design of the results.html page and set up event listeners for the "Start over" and "Retry" buttons. The "Retry" button redirects the user back to the quiz page, where the quiz is then re-administered. The "Start over" button clears session storage using the .clear() method, and then redirects the user to the index.html page so that they may start with a fresh set of quiz questions.
+<br>
+<br>
+<img width="1019" height="570" alt="image" src="https://github.com/user-attachments/assets/3e29735d-c3bc-4ab1-9e2f-b062e49cbf2f" />
+<br>
+<br>
+This is the new look for the results.html page. The buttons were changed to match the index.html page for design consistency. Just like the buttons on the index.html page, when you hover over a button, the background color transitions from deep blue to white, and the button text transitions to the deep blue color. Finally, I chose to move the position of the "Retry" button and increase its size so that it's easier for the user to click, and avoid clicking "start over" by mistake. I made this decision because I believe that if someone does use this app to study, they would probably want to study the questions and answers over and over.
+
 
 
 
