@@ -82,7 +82,7 @@ function nextQuestion () {
 
     } else {
 
-        sessionStorage.setItem("saved_score", score);
+        sessionStorage.setItem("quiz_score", score);
         window.location = "../results.html";
 
     }

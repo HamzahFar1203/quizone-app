@@ -1,0 +1,36 @@
+Questions to ask and their answers:
+
+1. What is a bee?
+   a. Mammal
+   b. Insect
+   c. Fruit
+
+Answer: An insect
+
+2. Think Git and GitHub, what does DVCS stand for?
+   a. Divided Virtual Command System
+   b. Distributed Virtual Control System
+   c. Distributed Version Control System
+
+Answer: Distributed Version Control System
+
+3. What HTML element allows you to create a table header?
+   a. thead
+   b. th
+   c. tr 
+
+Answer: th
+
+4. In what version of EcmaScript were Modules introduced?
+   a. ES6
+   b. ES4
+   c. ES5
+
+Answer: ES6
+
+5. What kernel was Linus Torvalds responsible for?
+   a. Linux
+   b. Unix
+   c. GNU
+
+Answer: Linux
