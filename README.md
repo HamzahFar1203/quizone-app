@@ -56,6 +56,10 @@ Due to the extensive nature of the functionality of this project, I've decided t
 <br>
 <br>
 <img width="1019" height="566" alt="image" src="https://github.com/user-attachments/assets/0080b61e-348b-45fe-bd94-f45430e3e27e" />
+<hr>
+<h2>Commit #4 - Part Two</h2>
+I've added full functionality for the quiz page. On load, the page begins the quiz by rendering the first question and its options. The quiz picks a question at random from the array of questions and displays the question along with its options. When the user selects an option, the app checks the status of that option in the question object. If the status of the option is set to "true", then the user earns a point, and the app moves to the next question. If the option's status is set to "false", then the user doesn't earn a point, and the app moves to the next question. This repeats until the last question. Once the user answers the final question, the app saves the score in session storage and redirects the user to the results page.
+
 
 
 
