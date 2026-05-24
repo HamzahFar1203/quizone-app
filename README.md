@@ -18,6 +18,8 @@ The planned features for this project include:
 </ol>
 <strong><i>Development Completed</i></strong>
 <br>
+<i>Try it:</i> https://hamzahfar1203.github.io/quizone-app/
+<br>
 <br>
 <strong>Figma</strong>
 <br>
